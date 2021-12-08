@@ -7,6 +7,12 @@ import Foundation
 var roll = 0
 
 
+while roll != 1 {
+    roll = Int(arc4random_uniform(6) + 1)
+    print(roll)
+}
+
+
 /*:
 [Previous](@previous)  |  page 3 of 6  |  [Next: App Exercise - While Loops](@next)
  */
